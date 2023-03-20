@@ -1,0 +1,68 @@
+ 
+    @font-face {
+        font-family:drakoni ;
+        src:url('drakoni.otf');
+       
+       }
+  
+       @font-face {
+        font-family:chocolates ;
+        src:url('chocolates.otf');
+       
+       }
+       @font-face {
+        font-family:coppint ;
+        src:url('Coppint\ Medium\ Demo.otf');
+       }
+
+       body {
+        background-image: url(abtc.jpg);
+        background-size: cover ;
+        display: flex; 
+        background-position: justify;
+        background-attachment: fixed ;
+       }
+h1 {  
+    font-size:50px ;
+    color: white;
+    margin-left: 30px; 
+    font-family: drakoni ;
+} 
+p {  
+    font-size:20px ;
+    color: white;
+    margin-left: 30px; 
+    font-family: chocolates ;
+} 
+input {
+    font-size: 20px ;
+    height: 50px;
+    width: 400px;
+    margin-top: 20px;
+    margin-left: 30px; 
+     font-family: chocolates ;
+ 
+}
+textarea {
+    font-size: 20px ;
+    margin-top: 20px;
+    margin-left: 30px; 
+    font-family: chocolates ;
+    width: 400px;
+ 
+}
+
+.button {  
+    font-size:20px ;
+    margin-top: 20px;
+    margin-left: 30px; 
+    font-family: chocolates ;
+    text-decoration: none;
+    color: black;
+    background-color: pink ;
+    padding: 10px 10px;
+} 
+
+.button:hover, a:active  { 
+    background-color:  violet;
+}
